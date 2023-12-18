@@ -15,7 +15,7 @@ body {
 .terminal {
   position: relative;
   width: 75%;
-  max-width: 16000px;
+  max-width: 1500px;
   margin: 20px auto;
   padding: 20px;
   background-color: #111;
@@ -95,7 +95,6 @@ p {
 
 .contact {
   margin-top: 20px;
-  padding: 20px;
   color: rgb(251, 253, 255);
 }
 
@@ -215,8 +214,17 @@ p {
 .arrow-up {
   transform: rotate(0);
 }
-.education-name {
-  border-bottom: 1px solid #fff; /* White line as a border */
-  padding-bottom: 10px; /* Adjust as needed for spacing */
-  margin-bottom: 20px; /* Adjust as needed for spacing */
+
+
+@media only screen and (max-width: 600px) {
+  /* Adjust the max-width value based on your design needs */
+
+  .contact {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  .button {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
