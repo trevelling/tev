@@ -2,7 +2,7 @@ body {
   font-family: 'Menlo', monospace;
   background-color: #000;
   color: #1abc9c;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .page {
@@ -15,7 +15,7 @@ body {
 .terminal {
   position: relative;
   width: 75%;
-  max-width: 1500px;
+  max-width: 16000px;
   margin: 20px auto;
   padding: 20px;
   background-color: #111;
