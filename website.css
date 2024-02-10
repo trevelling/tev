@@ -38,7 +38,8 @@ body {
   width: 100%;
   background-color: #fff;
   position: absolute;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   top: 0;
   left: 0;
 }
